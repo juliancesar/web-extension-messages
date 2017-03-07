@@ -1,0 +1,23 @@
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3"
+  IgnorableNamespaces="uap3">
+<Identity
+  Name="SERPRO"
+  Publisher="CN=SERPRO"
+  Version="0.0.0.1" />
+<Properties>
+  <DisplayName>My Extension</DisplayName>
+  <PublisherDisplayName>abigailc</PublisherDisplayName>
+  <Logo>logo.png</Logo>
+</Properties>
+<Dependencies>
+<TargetDeviceFamily Name="Windows.Desktop"
+      MinVersion="10.0.14393.0"
+      MaxVersionTested="10.0.14800.0" />
+</Dependencies>
+<Resources>
+<Resource Language="en-us"/>
+</Resources>
+</Package>
